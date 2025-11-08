@@ -1,14 +1,14 @@
 # krnchr
 
-A lightning-fast, lossless file aggregator written in Rust. Combines multiple files into a single output file with configurable formats.
+Combine files into a single output file. Supports multiple output formats.
 
 ## Features
 
-- **Lightning Fast**: Parallel file reading with Rayon
-- **100% Lossless**: Binary-safe with base64 encoding for structured formats
-- **Multiple Formats**: JSON, Text, XML, YAML, CSV
-- **Simple CLI**: Easy to use command-line interface
-- **Recursive**: Automatically discovers all files in directories
+- Parallel file reading
+- Binary-safe with base64 encoding
+- Multiple output formats: JSON, Text, XML, YAML, CSV
+- Recursive directory processing
+- Simple command-line interface
 
 ## Installation
 
@@ -97,10 +97,7 @@ Modular design with focused modules:
 
 ## Performance
 
-- Parallel file reading using Rayon for multi-core performance
-- Zero-copy operations where possible
-- Efficient base64 encoding implementation
-- Minimal allocations
+Uses parallel file reading for multi-core performance.
 
 ## Links
 
