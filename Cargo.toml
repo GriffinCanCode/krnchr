@@ -1,9 +1,9 @@
 [package]
 name = "krnchr"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Griffin Strier"]
-description = "Lightning-fast, lossless file aggregator - combines any files into JSON, text, XML, YAML, or CSV"
+description = "Combine files into a single output. Supports JSON, text, XML, YAML, and CSV formats."
 license-file = "LICENSE"
 repository = "https://github.com/GriffinCanCode/krnchr"
 readme = "README.md"
