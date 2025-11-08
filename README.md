@@ -12,7 +12,17 @@ A lightning-fast, lossless file aggregator written in Rust. Combines multiple fi
 
 ## Installation
 
+Install from [crates.io](https://crates.io/crates/krnchr):
+
 ```bash
+cargo install krnchr
+```
+
+Or build from source:
+
+```bash
+git clone https://github.com/GriffinCanCode/krnchr
+cd krnchr
 cargo build --release
 ```
 
@@ -91,6 +101,12 @@ Modular design with focused modules:
 - Zero-copy operations where possible
 - Efficient base64 encoding implementation
 - Minimal allocations
+
+## Links
+
+- **GitHub:** https://github.com/GriffinCanCode/krnchr
+- **crates.io:** https://crates.io/crates/krnchr
+- **Releases:** https://github.com/GriffinCanCode/krnchr/releases
 
 ## License
 
